@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rolando dados</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Rolando dados</h1>
+   <header class="top">
+    <h1 class="top__h1">Rolando dados</h1>
+    </header>
 
-    <script src="dice-roller.js"></script>
+    <section id="dicePlace" class="dicePlaces">
+         <figure class="diceFigure diceOne">
+               <img src="https://lojagrow.vteximg.com.br/arquivos/ids/168605-1000-1000/Dado-Comum-6-lados-14mm-Branco.png?v=637487476899270000" alt="Dado2" width="30%"/>
+               <figcaption>Primeiro Dado</figcaption>
+          </figure>
+
+         <figure class="diceFigure diceTwo">
+               <img src="https://lojagrow.vteximg.com.br/arquivos/ids/168605-1000-1000/Dado-Comum-6-lados-14mm-Branco.png?v=637487476899270000" alt="Dado2" width="30%" class="img2"/>
+               <figcaption>Segundo Dado</figcaption>
+         </figure>
+    </section>
+
+    <h2 id="textoH2" class="texto">Resultado:  <span id="result"></span>  <span id="result2"></span> <span id="somas"></span></h2>
+
+    <section class="actionDice">
+    <!-- <button id="sendDices">Jogar dados</button> -->
+    <button id="sumDices">Lançar dados</button>
+    
+    </section>
+
+    <section id="textDiv" class="divText">
+
+    </section>
+
+    <section id="barraDiv">
+
+    </section>
+
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+<!--const textDiv = document.getElementById('textDiv')
+
+sumDices.addEventListener('dblclick', resetParagraph);
+
+function resetParagraph(){
+
+    textDiv.innerHTML =''
+}
+
+
+
+-->

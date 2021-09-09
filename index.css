@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color:#adb5bd;
+    color:black;
+}
+
+.top{
+    width: 100%;
+    background-color:slateblue;
+    height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.diceFigure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+button{
+    background-color:chartreuse;
+    border:none;
+    padding: 10px 25px;
+    color: #fff;
+    box-shadow: 1px 2px gray;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+button:hover{
+    background-color: #fff;
+    color: chartreuse;
+}
+
+figcaption{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dicePlaces{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+.img2{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.actionDice{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 0 10px;
+}
+
+#sendDices{
+    display: none;
+}
+
+.divText{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+@media screen and (min-width:900px){
+
+        
+    
+}
+    
